@@ -1,0 +1,66 @@
+body {
+    background-color: #f5f5f5;
+}
+
+#main-content {
+    max-width: 940px;
+    padding: 2em 3em;
+    margin: 0 auto 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  background: #333;
+}
+
+.form {
+  width: 650px;
+  background: #FFF;
+  border: 1px solid #e5e5e5;
+  padding: 5em;
+  margin: 1em auto;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+
+#messages {
+  font-size: 0.75rem;
+  font-color: #000000
+}
+
+input[type=button] {
+  background: #86b32d;
+  border-bottom: 1px solid #5d7d1f;
+}
+
+input[type=text] {
+    margin: 0 0 4px 0;
+}
+
+input[id=connectButton] {
+    margin: 0 0 0 5px;
+}
+
+input[id=disConnectButton] {
+    margin: 0 8px 0 0;
+}
+
+input[id=send] {
+    margin: 0 2px 0 0;
+}
+
+label {
+      font-size: 0.9rem;
+      font-color: #000000
+}
+
+#labelMessage {
+    margin: 15px 0 0 0;
+}
+
+.space-row {
+    margin: 15px 0 0 0;
+}

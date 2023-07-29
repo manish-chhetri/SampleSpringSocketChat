@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="/style.css" rel="stylesheet">
+    <script src="./script.js">
+    </script>
+</head>
+<body>
+<div id="main-content" class="container">
+    <div class="form">
+        <span id="labelEnterName"><label>Please enter your name</label></span>
+        <div>
+            <input type="text" id="name"><input id="connectButton" type="button" value="Connect" onclick="connect()">
+            <input id="disConnectButton" type="button" value="Disconnected" onclick="disconnect()" disabled="disabled">
+        </div>
+        <div class="space-row"></div>
+        <div id="messages"></div>
+        <div id="labelMessage"><label>Enter message</label></div>
+        <div>
+            <input type="text" id="message">
+            <input id="send" type="button" value="Send" onclick="sendToGroupChat()">
+        </div>
+    </div>
+</div>
+</body>
+</html>
